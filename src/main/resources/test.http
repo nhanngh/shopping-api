@@ -1,0 +1,24 @@
+GET {{shoppingHost}}/v1/shop/user/1111
+Accept: application/json
+
+###
+
+GET {{shoppingHost}}/v1/shop/users
+Accept: application/json
+
+# PRDUCT
+###
+POST {{shoppingHost}}/v1/shop/product
+Content-Type: application/json
+
+{
+  "name": "apple",
+  "price": 1000,
+  "description": "Ip14 pro max"
+}
+
+###
+GET {{shoppingHost}}/v1/shop/product/p1
+Accept: application/json
+
+###
